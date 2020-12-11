@@ -1,0 +1,19 @@
+<body>
+  <section class="section">
+    <div class="container">
+      <h1 class="title ">Peliculas</h1>
+      <h2 class="subtitle">
+        Vea nuestro catalogo de peliculas
+      </h2>
+      <div class="field">
+        <label>Escriba</label>
+        <div class="control">
+          <input type="text" class="input" #movie>
+        </div>
+      </div>
+      <div class="field">
+        <button (click)="getMovie(movie.value)" class="button is-primary">Aceptar</button>
+      </div>
+    </div>
+  </section>
+</body>
